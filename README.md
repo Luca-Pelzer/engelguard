@@ -3,8 +3,8 @@
 >
 > EngelGuard started as a Twitch moderation bot. Building it made one thing clear: what I actually
 > wanted was much bigger than a single bot, so I built **[EngelOS](https://github.com/Luca-Pelzer/engelos)**:
-> one self-hosted **suite** that ties everything together (moderation, commands, a points economy,
-> games, giveaways, and engagement systems), rebuilt from scratch in **Go**.
+> one self-hosted **suite** that ties everything together (moderation, commands, Channel-Points
+> triggers, giveaways, mini-games, and engagement systems), rebuilt from scratch in **Go**.
 >
 > **EngelGuard isn't going away.** It's the moderation bot inside that suite. The Twitch and Discord
 > bots are still EngelGuard; EngelOS is just the bigger home they now live in. This repository holds
@@ -12,9 +12,10 @@
 > Go-based EngelOS suite.
 >
 > EngelOS brings: AutoMod with an audit log, dry-run mode, and escalation; custom commands with a
-> `$(...)` variable system; a loyalty-points economy with mini-games (`!gamble` / `!slots` / `!duel` /
-> `!heist`); **provably-fair giveaways**; Pity and Streak systems; a Channel-Points trigger engine; an
-> embedded web dashboard; and multi-platform support (Twitch and Discord today, YouTube/Kick on the roadmap).
+> `$(...)` variable system; a Channel-Points trigger engine for affiliates, plus a built-in points
+> fallback (with mini-games like `!gamble` / `!slots` / `!duel` / `!heist`) for channels that don't
+> have Channel Points; **provably-fair giveaways**; Pity and Streak systems; an embedded web dashboard;
+> and multi-platform support (Twitch and Discord today, YouTube/Kick on the roadmap).
 >
 > 👉 **Head to [github.com/Luca-Pelzer/engelos](https://github.com/Luca-Pelzer/engelos) for the full suite.**
 

@@ -1,22 +1,22 @@
 > [!IMPORTANT]
-> ## 🚀 This project grew up: meet **engelOS**
+> ## 🚀 EngelGuard is now part of the **engelos** suite
 >
 > EngelGuard started as a Twitch moderation bot. Building it made one thing clear: what I actually
-> wanted was much bigger than this codebase could carry. Not a moderation bot with a few add-ons, but
-> moderation, commands, a points economy, games, giveaways, and engagement systems all in **one
-> coherent suite**. So instead of bolting more onto EngelGuard, I rebuilt it from scratch in **Go** as
-> **[engelOS](https://github.com/Luca-Pelzer/engelos)**: a single, self-hosted streaming bot that puts
-> everything in one place.
+> wanted was much bigger than a single bot, so I built **[engelos](https://github.com/Luca-Pelzer/engelos)**:
+> one self-hosted **suite** that ties everything together (moderation, commands, a points economy,
+> games, giveaways, and engagement systems), rebuilt from scratch in **Go**.
 >
-> engelOS keeps the spirit of EngelGuard (free, self-hosted, no vendor lock-in) and expands the scope:
-> AutoMod with an audit log, dry-run mode, and escalation; custom commands with a `$(...)` variable
-> system; a loyalty-points economy with mini-games (`!gamble` / `!slots` / `!duel` / `!heist`);
-> **provably-fair giveaways**; Pity and Streak systems; a Channel-Points trigger engine; an embedded
-> web dashboard; and multi-platform support (Twitch and Discord today, YouTube/Kick on the roadmap).
+> **EngelGuard isn't going away.** It's the moderation bot inside that suite. The Twitch and Discord
+> bots are still EngelGuard; engelos is just the bigger home they now live in. This repository holds
+> the original Python EngelGuard for reference and history, while active development continues in the
+> Go-based engelos suite.
 >
-> 👉 **New users and contributors should head to [github.com/Luca-Pelzer/engelos](https://github.com/Luca-Pelzer/engelos).**
+> engelos brings: AutoMod with an audit log, dry-run mode, and escalation; custom commands with a
+> `$(...)` variable system; a loyalty-points economy with mini-games (`!gamble` / `!slots` / `!duel` /
+> `!heist`); **provably-fair giveaways**; Pity and Streak systems; a Channel-Points trigger engine; an
+> embedded web dashboard; and multi-platform support (Twitch and Discord today, YouTube/Kick on the roadmap).
 >
-> EngelGuard stays here for reference and history, but active development has moved to engelos.
+> 👉 **Head to [github.com/Luca-Pelzer/engelos](https://github.com/Luca-Pelzer/engelos) for the full suite.**
 
 ---
 

@@ -1,24 +1,22 @@
 > [!IMPORTANT]
-> ## 🚀 This project grew up — meet **engelOS**
+> ## 🚀 This project grew up: meet **engelOS**
 >
-> EngelGuard started as a Twitch moderation bot, and it grew far beyond what its
-> original Python codebase was built for. So we took everything we learned here,
-> **refactored the whole thing from the ground up**, and rebuilt it bigger and
-> faster as **[engelOS](https://github.com/Luca-Pelzer/engelos)** — a single,
-> self-hosted streaming bot written in **Go**.
+> EngelGuard started as a Twitch moderation bot. Building it made one thing clear: what I actually
+> wanted was much bigger than this codebase could carry. Not a moderation bot with a few add-ons, but
+> moderation, commands, a points economy, games, giveaways, and engagement systems all in **one
+> coherent suite**. So instead of bolting more onto EngelGuard, I rebuilt it from scratch in **Go** as
+> **[engelOS](https://github.com/Luca-Pelzer/engelos)**: a single, self-hosted streaming bot that puts
+> everything in one place.
 >
-> engelOS keeps the spirit of EngelGuard (free, self-hosted, no vendor lock-in)
-> and expands the scope massively: AutoMod with an audit log, dry-run mode &
-> escalation; custom commands with a `$(...)` variable system; a loyalty-points
-> economy with mini-games (`!gamble` / `!slots` / `!duel` / `!heist`);
-> **provably-fair giveaways**; Pity & Streak systems; a Channel-Points trigger
-> engine; an embedded web dashboard; and multi-platform support (Twitch +
-> Discord today, YouTube/Kick on the roadmap).
+> engelOS keeps the spirit of EngelGuard (free, self-hosted, no vendor lock-in) and expands the scope:
+> AutoMod with an audit log, dry-run mode, and escalation; custom commands with a `$(...)` variable
+> system; a loyalty-points economy with mini-games (`!gamble` / `!slots` / `!duel` / `!heist`);
+> **provably-fair giveaways**; Pity and Streak systems; a Channel-Points trigger engine; an embedded
+> web dashboard; and multi-platform support (Twitch and Discord today, YouTube/Kick on the roadmap).
 >
 > 👉 **New users and contributors should head to [github.com/Luca-Pelzer/engelos](https://github.com/Luca-Pelzer/engelos).**
 >
-> EngelGuard stays here for reference and history, but active development has
-> moved to engelOS.
+> EngelGuard stays here for reference and history, but active development has moved to engelos.
 
 ---
 
@@ -34,7 +32,7 @@
 [![Self-Hosted](https://img.shields.io/badge/self--hosted-100%25-green.svg)](https://github.com/engelswtf/engelguard)
 
 **EngelGuard is a feature-rich, production-ready Twitch chat bot built with Python and TwitchIO.**  
-It rivals top bots like Nightbot, Fossabot, and StreamElements with advanced moderation, custom commands, loyalty systems, and more — all completely free and open-source.
+It rivals top bots like Nightbot, Fossabot, and StreamElements with advanced moderation, custom commands, loyalty systems, and more, all completely free and open-source.
 
 [Why EngelGuard?](#-why-engelguard) • [Features](#-features) • [Quick Start](#-quick-start) • [Dashboard](#-web-dashboard) • [Docs](#-documentation)
 
